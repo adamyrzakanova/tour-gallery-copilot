@@ -35,3 +35,7 @@ function App() {
 export default App
 // Fetch tours from https://course-api.com/react-tours-project using useEffect
 // Store in state: tours, loading, error
+
+// If loading is true, display "Loading..."
+// If error, display an error message
+// Else, render Gallery with tour data
